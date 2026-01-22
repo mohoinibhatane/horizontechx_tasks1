@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohini Bhatane| Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+  <nav>
+    <h2 class="logo">Mohini Bhatane</h2>
+    <ul>
+      <li><a href="#" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <section class="hero">
+    <h1>Hello, I'm <span>Mohini</span></h1>
+    <p>Web Developer | Full Stack Developer</p>
+    <button class="btn" id="viewWorkBtn">View My Work</button>
+  </section>
+
+
+  <section id="about" class="section active">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate web developer with experience in HTML, CSS, JavaScript,
+      and no-code tools like Adalo. I enjoy building clean, user-friendly applications.
+    </p>
+  </section>
+
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React.js</span>
+      <span>Adalo</span>
+    </div>
+  </section>
+
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Restaurent Food App</h3>
+        <p> Developed a backend API for a restaurant food application 
+            using Node.js, Express.js, and MongoDB. The API handles menu 
+            management, order placement, and retrieval of order details for clients or 
+            front-end applications.</p>
+      </div>
+      <div class="project-card">
+        <h3>Doctor Search Website</h3>
+        <p>Search doctors by specialty and location.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Movie Zone </h3>
+        <p>Developed a React-based web application that displays 
+            movie information such as titles, posters, and ratings. Implemented 
+            dynamic UI components and responsive design to enhance user 
+            experience while exploring movie data. </p>
+      </div>
+      <div class="project-card">
+        <h3>Supermarket Billing Management System </h3>
+        <p>Supermarket billing management system is a software 
+            application that helps manage billing operations in a supermarket. It is 
+            designed to keep track of the products sold, calculate the total bill, and 
+            generate a receipt for the customer.</p>
+      </div>
+     </div>
+  </section>
+
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Mohini Bhatane</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
